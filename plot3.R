@@ -1,9 +1,8 @@
 library("data.table")
 
-setwd("~/Desktop/datasciencecoursera/4_Exploratory_Data_Analysis/project/data")
 
 #Reads in data from file then subsets data for specified dates
-powerDT <- data.table::fread(input = "household_power_consumption.txt"
+powerDT <- data.table::fread(input = "/Users/sidharthbahl/College/Data_Science_Lab/ExData_Plotting1/household_power_consumption.txt"
                              , na.strings="?"
 )
 
